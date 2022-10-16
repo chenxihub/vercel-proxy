@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "http://api.xiaonaofu.top:8737/$1"
+        }
+    ]
+}
